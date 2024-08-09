@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.add-book-btn {
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin-left: 17px !important;
+}
+
+.add-book-btn:hover {
+    background-color: #0056b3;
+}
+
+.book-count {
+    color: #6c757d !important;
+}
+
